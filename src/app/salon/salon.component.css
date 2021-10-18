@@ -1,0 +1,28 @@
+.main{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.grid2{
+    margin-top: 10px;
+}
+.cards3{
+    
+    margin-bottom: 40px;
+}
+.card {
+    
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+.card:hover {
+    color: #ec0f08;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    background-color: #1b9ce3;
+}

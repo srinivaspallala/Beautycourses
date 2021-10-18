@@ -1,0 +1,38 @@
+.course{
+    margin-top: 30px;
+}
+.course p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card1{
+    margin-bottom: 10px;
+}
+.card2{
+    margin-bottom: 10px;
+}
+.card3{
+    margin-bottom: 10px;
+}
+h2{
+    text-decoration: 4px solid underline;
+}
+h5{
+    text-decoration: 3px solid underline;
+}
+.card {
+    
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+.card:hover {
+    color: #ec0f08;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    background-color: #1b9ce3;
+}
